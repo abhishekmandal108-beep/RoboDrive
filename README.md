@@ -3,7 +3,7 @@
 
 <div align="center">
 
-# 🚗 RoboDrive
+#  RoboDrive
 
 ### Bluetooth-Controlled Smart Robotic Car
 
@@ -27,16 +27,16 @@ This project demonstrates the practical use of embedded systems, wireless commun
 
 ## ✨ Features
 
-- 📱 Wireless Bluetooth control
-- ⬆️ Forward movement
-- ⬇️ Backward movement
-- ⬅️ Left movement
-- ➡️ Right movement
-- 🛑 Stop functionality
-- 💡 LED indicator
-- 🔧 Easy-to-build hardware design
+-  Wireless Bluetooth control
+-  Forward movement
+-  Backward movement
+-  Left movement
+-  Right movement
+-  Stop functionality
+-  LED indicator
+-  Easy-to-build hardware design
 
-## 🧰 Hardware Components
+##  Hardware Components
 
 | Component | Purpose |
 |---|---|
@@ -50,14 +50,14 @@ This project demonstrates the practical use of embedded systems, wireless commun
 | Chassis | Car body |
 | LED | Status indication |
 
-## 💻 Software Requirements
+##  Software Requirements
 
 - Arduino IDE
 - Android Bluetooth Controller App
 - Arduino C/C++ programming
 - Bluetooth serial communication
 
-## 🔌 Working Principle
+##  Working Principle
 
 1. The HC-05 module connects with an Android smartphone.
 2. The smartphone sends commands through Bluetooth.
@@ -66,7 +66,7 @@ This project demonstrates the practical use of embedded systems, wireless commun
 5. The L298N motor driver controls the DC motors.
 6. The car moves according to the selected command.
 
-## 🎮 Bluetooth Commands
+##  Bluetooth Commands
 
 | Command | Action |
 |---|---|
@@ -76,7 +76,7 @@ This project demonstrates the practical use of embedded systems, wireless commun
 | R | Right |
 | S | Stop |
 
-## 📍 Arduino Pin Configuration
+##  Arduino Pin Configuration
 
 | Arduino Pin | Connection |
 |---|---|
@@ -90,7 +90,7 @@ This project demonstrates the practical use of embedded systems, wireless commun
 
 *The Bluetooth wiring assumes SoftwareSerial. Connect HC-05 TX to Arduino D2 and Arduino D3 to HC-05 RX through a suitable voltage divider.*
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 1. Download or clone this repository.
 2. Open Arduino IDE.
@@ -102,7 +102,7 @@ This project demonstrates the practical use of embedded systems, wireless commun
 8. Open a Bluetooth controller application.
 9. Send F, B, L, R or S commands.
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 RoboDrive-Bluetooth-Car/
@@ -115,7 +115,7 @@ RoboDrive-Bluetooth-Car/
 └── LICENSE
 ```
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add obstacle detection using ultrasonic sensors.
 - Add voice command functionality.
@@ -124,7 +124,7 @@ RoboDrive-Bluetooth-Car/
 - Add live camera streaming.
 - Add autonomous navigation.
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 - Arduino programming
 - Bluetooth communication
